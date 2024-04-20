@@ -3,6 +3,8 @@ sudo pacman -Su
 
 # install homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+sudo pacman -S base-devel
 
 # only if git is not already installed
 # brew install git
@@ -19,6 +21,8 @@ brew install gh
 
 # tpm
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
+sudo su
 
 # empty ~
 cd ~
@@ -37,4 +41,6 @@ exec bash
 cd .config
 gh auth login
 git clone 'https://github.com/joelflaig/gh.git'
+
+exit
 
