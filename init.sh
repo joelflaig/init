@@ -15,6 +15,8 @@ brew install fzf
 brew install tmux
 brew install lazygit
 brew install starship
+brew install gh
+
 # tpm
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
@@ -25,8 +27,14 @@ rm -rf joel
 mkdir joel
 cd joel
 
+# config using stow
 git clone 'https://github.com/joelflaig/dotfiles.git'
 cd dotfiles
 stow .
 exec bash
+
+# gh config
+cd .config
+gh auth login
+git clone 'https://github.com/joelflaig/gh.git'
 
