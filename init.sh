@@ -4,7 +4,8 @@ sudo pacman -Su
 # install homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-brew install git
+# only if git is not already installed
+# brew install git
 brew install neovim
 brew install eza
 brew install bat
