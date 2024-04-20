@@ -22,16 +22,8 @@ brew install gh
 # tpm
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
-sudo su
-
-# empty ~
-cd ~
-cd ..
-rm -rf joel
-mkdir joel
-cd joel
-
 # config using stow
+cd ~
 git clone 'https://github.com/joelflaig/dotfiles.git'
 cd dotfiles
 stow .
@@ -41,6 +33,4 @@ exec bash
 cd .config
 gh auth login
 git clone 'https://github.com/joelflaig/gh.git'
-
-exit
 
