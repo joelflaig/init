@@ -3,17 +3,24 @@ This may not work as script.
 I recommend executing the commands and following possible on-screen instructions
 
 ```bash
+# acquire admin privileges
+sudo su
+
 # update
-sudo pacman -Su
+pacman -Su
 
 # zsh -- shell environment
 brew install zsh
-sudo chsh -s $(which zsh)
+chsh -s $(which zsh)
 
 # install homebrew -- my preferred package manager
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-sudo pacman -S base-devel
+pacman -S base-devel
+
+# git -- version control (only if not installed)
+# sudo pacman -S git # pacman
+# brew install git # brew
 
 # gcc -- c compiler
 brew install gcc
