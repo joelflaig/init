@@ -47,6 +47,9 @@ brew install eza
 # lazygit -- git client
 brew install lazygit
 
+# delta -- diff tool
+brew install git-delta
+
 # fzf -- fuzzy finder
 brew install fzf
 
