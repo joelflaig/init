@@ -68,10 +68,13 @@ brew install gh
 
 # configure dotfiles
 cd ~
+rm *
 git clone https://github.com/joelflaig/dotfiles.git ~/dotfiles
+cd dotfiles
 stow .
 
 # nitch
 cd ~/.config/nitch
 nimble build
+exec zsh
 
