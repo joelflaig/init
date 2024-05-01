@@ -1,8 +1,3 @@
-# Initialization Script
-This may not work as script.
-I recommend executing the commands and following possible on-screen instructions
-
-```bash
 # acquire admin privileges
 sudo su
 
@@ -62,6 +57,12 @@ brew install stow
 # starship -- shell prompt
 brew install starship
 
+# pipes.sh -- animated pipes terminal screensaver
+brew install pipes-sh
+
+# thefuck -- corrects command mistakes
+brew install thefuck
+
 # gh -- github cli
 brew install gh
 
@@ -74,4 +75,3 @@ stow .
 cd ~/.config/nitch
 nimble build
 
-```
