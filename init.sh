@@ -23,7 +23,7 @@ brew install nim
 brew install tmux
 tmux
 
-# neovim
+# neovim -- editor
 brew install neovim
 
 # bat -- cat with syntax highlighting
