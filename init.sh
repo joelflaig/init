@@ -38,6 +38,9 @@ brew install git-delta
 # fzf -- fuzzy finder
 brew install fzf
 
+# zoxide -- cd replacement
+brew install zoxide
+
 # ripgrep -- grep replacement
 brew install ripgrep
 
