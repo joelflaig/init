@@ -4,10 +4,6 @@ sudo su
 # update
 pacman -Su
 
-# zsh -- shell environment
-brew install zsh
-chsh -s $(which zsh)
-
 # install homebrew -- my preferred package manager
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
@@ -22,9 +18,6 @@ brew install gcc
 
 # nim -- nim language
 brew install nim
-
-# git -- version control
-brew install git
 
 # tmux -- terminal multiplexer
 brew install tmux
@@ -76,5 +69,6 @@ stow .
 # nitch
 cd ~/.config/nitch
 nimble build
+
 exec zsh
 
