@@ -56,16 +56,19 @@ brew install thefuck
 # gh -- github cli
 brew install gh
 
-# nitch
-cd ~/.config/nitch
-nimble build
-
 echo "To use my config files, you can do this:
-cd ~
-rm -rf init
-sudo rm *
-git clone https://github.com/joelflaig/dotfiles.git ~/dotfiles
-cd dotfiles
-stow .
+  cd ~
+  rm -rf init
+  sudo rm *
+  git clone https://github.com/joelflaig/dotfiles.git ~/dotfiles
+  cd dotfiles
+  stow .
+
+for nitch run:
+  cd ~/.config/nitch
+  nimble build
+
 "
+
+exec zsh
 
