@@ -1,6 +1,9 @@
 # update
 sudo pacman -Su
 
+# mandoc -- man pages
+sudo pacman -S mandoc
+
 # install homebrew -- my preferred package manager
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/joel/.zshrc
@@ -52,6 +55,9 @@ brew install starship
 
 # pipes.sh -- animated pipes terminal screensaver
 brew install pipes-sh
+
+# btop++ -- command line task manager
+brew install btop
 
 # thefuck -- corrects command mistakes
 brew install thefuck
