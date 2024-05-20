@@ -20,6 +20,9 @@ brew install gcc
 # nim -- nim language
 brew install nim
 
+# nodejs -- javascript
+brew install node@20
+
 # tmux -- terminal multiplexer
 brew install tmux
 
@@ -65,19 +68,17 @@ brew install thefuck
 # gh -- github cli
 brew install gh
 
-echo "To use my config files, you can do this:
-  cd ~
-  rm -rf init
-  sudo rm *
-  git clone https://github.com/joelflaig/dotfiles.git ~/dotfiles
-  cd dotfiles
-  stow .
+# git-lfs -- git large file storage
+brew install git-lfs
+git lfs install
+git lfs install --system
 
-for nitch run:
+echo "To use my config files, you can execute config.sh.
+To build nitch execute:
   cd ~/.config/nitch
   nimble build
 
-"
+IMPORTANT: before executing config.sh, make sure all configuration files in $HOME are deleted."
 
 exec zsh
 
