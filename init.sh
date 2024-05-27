@@ -17,6 +17,9 @@ sudo pacman -S base-devel
 # gcc -- c compiler
 brew install gcc
 
+# llvm -- compiler framework
+brew install llvm
+
 # nim -- nim language
 brew install nim
 
@@ -43,6 +46,9 @@ brew install git-delta
 
 # fzf -- fuzzy finder
 brew install fzf
+
+# yazi -- file manager
+brew install yazi
 
 # zoxide -- cd replacement
 brew install zoxide
