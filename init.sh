@@ -53,6 +53,9 @@ brew install yazi
 # zoxide -- cd replacement
 brew install zoxide
 
+# fd -- find files
+brew install fd
+
 # ripgrep -- grep replacement
 brew install ripgrep
 
