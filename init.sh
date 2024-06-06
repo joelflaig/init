@@ -26,8 +26,14 @@ brew install nim
 # nodejs -- javascript
 brew install node@20
 
+# yq -- yaml, json, xml processor
+brew install yq
+
 # tmux -- terminal multiplexer
 brew install tmux
+
+# tpm -- tmux plugin manager
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 # neovim -- editor
 brew install neovim
