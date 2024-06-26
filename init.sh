@@ -26,6 +26,11 @@ brew install nim
 # nodejs -- javascript
 brew install node@20
 
+# rustup -- rust language
+brew install rustup
+rustup-init
+. "$HOME/.cargo/env"
+
 # yq -- yaml, json, xml processor
 brew install yq
 
@@ -71,6 +76,15 @@ brew install stow
 # starship -- shell prompt
 brew install starship
 
+# zsh-syntax-highlighting -- syntax highlighting for zsh
+brew install zsh-syntax-highlighting
+
+# zsh-autosuggestions -- suggestions for zsh
+brew install zsh-autosuggestions
+
+# termium -- codeium autocomplete for shell
+curl -L https://github.com/Exafunction/codeium/releases/download/termium-v0.2.0/install.sh | bash
+
 # pipes.sh -- animated pipes terminal screensaver
 brew install pipes-sh
 
@@ -87,6 +101,10 @@ brew install gh
 brew install git-lfs
 git lfs install
 git lfs install --system
+
+# termium authentication
+termium auth
+termium shell-hook install
 
 echo "To use my config files, you can execute config.sh.
 To build nitch execute:
