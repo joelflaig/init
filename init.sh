@@ -91,6 +91,9 @@ brew install pipes-sh
 # btop++ -- command line task manager
 brew install btop
 
+# spotify-tui -- terminal spotify client
+cargo install spotify-tui
+
 # thefuck -- corrects command mistakes
 brew install thefuck
 
