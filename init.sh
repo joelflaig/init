@@ -17,6 +17,9 @@ sudo pacman -S base-devel
 # gcc -- c compiler
 brew install gcc
 
+# sl -- annoying if you mistype ls
+brw install sl
+
 # llvm -- compiler framework
 brew install llvm
 
