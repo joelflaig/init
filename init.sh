@@ -91,6 +91,9 @@ curl -L https://github.com/Exafunction/codeium/releases/download/termium-v0.2.0/
 # pipes.sh -- animated pipes terminal screensaver
 brew install pipes-sh
 
+# cmatrix -- matrix effect
+brew install cmatrix
+
 # btop++ -- command line task manager
 brew install btop
 
