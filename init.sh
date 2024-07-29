@@ -17,8 +17,11 @@ sudo pacman -S base-devel
 # gcc -- c compiler
 brew install gcc
 
-# sl -- annoying if you mistype ls
-brw install sl
+# luarocks -- lua package manager
+brew install luarocks
+
+# sl -- annoyance for bad typists
+brew install sl
 
 # llvm -- compiler framework
 brew install llvm
