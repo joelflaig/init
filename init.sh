@@ -88,6 +88,9 @@ brew install zsh-syntax-highlighting
 # zsh-autosuggestions -- suggestions for zsh
 brew install zsh-autosuggestions
 
+# zsh-vi-mode -- better vi mode
+brew install zsh-vi-mode
+
 # termium -- codeium autocomplete for shell
 curl -L https://github.com/Exafunction/codeium/releases/download/termium-v0.2.0/install.sh | bash
 
