@@ -17,6 +17,9 @@ sudo pacman -S base-devel
 # gcc -- c compiler
 brew install gcc
 
+# lua -- lua interpreter
+brew install lua
+
 # luarocks -- lua package manager
 brew install luarocks
 
